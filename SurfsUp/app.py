@@ -60,7 +60,7 @@ def welcome():
 @app.route("/api/v1.0/precipitation")
 # Convert the query results from your precipitation analysis (i.e. retrieve only the last 12 months of data)
 # to a dictionary using date as the key and prcp as the value.
-# https://github.com/python-restx/flask-restx/issues/115
+# create a dict type - https://github.com/python-restx/flask-restx/issues/115
 def precipitation():
 
     session = Session(engine)
